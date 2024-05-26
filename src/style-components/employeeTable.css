@@ -1,0 +1,45 @@
+.employees-data {
+	min-width: 100%;
+	border-collapse: collapse;
+  	border-spacing: 0;
+}
+
+thead {
+	background-color: rgb(35, 35, 255);
+}
+
+.grey {
+	background-color: rgb(217, 217, 217);
+}
+.white {
+	background-color: white;
+}
+
+
+th {
+	padding: 25px 10px 25px 10px;
+	color: white;
+	text-align: left;
+	min-width: 30px;
+}
+
+td {
+	padding: 25px 10px 25px 10px;
+	text-align: left;
+}
+
+.profilepicture {
+	border-radius: 50%;
+	width: 25px;
+	height: auto;
+}
+
+.updown {
+	width: 20px;
+	height: auto;
+}
+
+.medal {
+	width: 30px;
+	height: auto;
+}

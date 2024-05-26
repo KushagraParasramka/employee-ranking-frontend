@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.title-container {
+  display: flex;
+  gap : 10px;
+  font-size: 30px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.component-container {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.all-emp-container{
+  min-width: 80%;
+}
+
+.best-emp-container {
+  min-width: 19%;
+  background-color:honeydew;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}

@@ -1,0 +1,5 @@
+.name-container {
+	display: flex;
+	justify-content: left;
+	gap: 10px;
+}

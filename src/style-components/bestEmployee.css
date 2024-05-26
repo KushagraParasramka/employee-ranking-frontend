@@ -1,0 +1,18 @@
+.best-emp-dp-container {
+	margin : 10px;
+	
+}
+
+.best-emp-dp {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.best-emp-details {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+}

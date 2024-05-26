@@ -19,6 +19,8 @@ function App() {
 
   return (
     <>
+
+    {/* header contains logo and date and time */}
       <div className='header'>
         <div className='title-container'>
           <div className='logo-container'>
@@ -31,10 +33,13 @@ function App() {
           <div>{currentTime}</div>
         </div>
       </div>
+
+{/* this block contains the two main components :- employee table, best employee card */}
       <div className='component-container'>
       <div className='best-emp-container'>
         {employeeData ? 
             (
+              // render the card
               <BestEmpl bestEmployee={employeeData[0]} />
             ) :
             (
@@ -44,7 +49,9 @@ function App() {
         </div>
         <div className='all-emp-container'>
           {employeeData ? 
+
             (
+              // render the table
               <Employees employeeData={employeeData} />
             ) :
             (

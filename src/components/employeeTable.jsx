@@ -23,6 +23,7 @@ function Employees({employeeData}) {
       		</thead>
 			<tbody>
         		{
+					// since employeeData contains all the data which is looped one at each iteration using map
 					employeeData.map((employee,i) => (
 						<tr key={employee.id} className={i%2===0 ? "grey" : "white"}>
 							<td>{i===0 ? <img src={medal1} className='medal'/> 
@@ -42,6 +43,7 @@ function Employees({employeeData}) {
 							</td>
 						</tr>
 					))
+					// the name component and changes component are sub commponents used only to make styling easy
 				}
       		</tbody>
 		</table>

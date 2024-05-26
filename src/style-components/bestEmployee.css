@@ -12,7 +12,38 @@
 .best-emp-details {
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
+	margin: 30px 10px 30px 10px;
 	justify-content: center;
 	align-items: center;
+}
+
+.best-title {
+	font-weight: 700;
+	font-size: '1vw';
+	margin-bottom: '10px';
+}
+
+.best-name { 
+	font-size: '0.8vw';
+	color: '#333'; 
+	margin-bottom: '5px'; 
+}
+
+.best-post {
+	font-size: '0.7vw'; 
+	color: '#666';
+}
+
+
+@media (max-width: 700px) {
+	.best-title {
+		font-size: 20px;
+		
+	}
+	.best-name { 
+		font-size: 15px;
+	}
+	.best-post {
+		font-size: 12px;
+	}
 }

@@ -3,24 +3,26 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  min-width: 100%;
 }
 
 .title-container {
   display: flex;
   gap : 10px;
-  font-size: 30px;
+  font-size: 4vw;
 }
 
 .date-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 2vw;
 }
 
 .component-container {
   width: 100%;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   flex-direction: row-reverse;
   gap: 10px;
 }
@@ -31,12 +33,36 @@
 
 .best-emp-container {
   min-width: 19%;
-  background-color:honeydew;
+  background-image: linear-gradient(0deg, #e7c5ff, #d1ffcb);
   height: fit-content;
   border-radius: 10px;
 }
 
 .logo {
   width: 40px;
-  height: auto;
+  height: 40px;
+}
+
+@media (max-width: 700px) {
+
+  .component-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+  }
+
+  .all-emp-container{
+    max-width: 100%;
+  }
+
+  .best-emp-container {
+    min-width: 30%;
+    background-image: linear-gradient(0deg, #e7c5ff, #d1ffcb);
+    height: fit-content;
+    border-radius: 10px;
+  }
+
 }
